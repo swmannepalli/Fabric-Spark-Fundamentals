@@ -6,7 +6,7 @@
 
 -------------------------------------------------------------------------------------------------------------------
 
-1. **Open** Power BI in a new tab by clicking [HERE](https://app.powerbi.com/)
+1. **Open** Power BI/Fabric page in a new tab by clicking [HERE](https://app.powerbi.com/)
 
 
 >**Note:** Make sure to login using non-prod external subscription credentials.
