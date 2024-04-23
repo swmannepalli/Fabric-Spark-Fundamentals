@@ -4,4 +4,6 @@ Apache Spark is an open source parallel processing framework for large-scale dat
 
 This lab helps with basic understanding of Spark concepts including loading data to dataframe, querying data and applying simple transformations. 
 
-[Get Started ](Task1:FabricWorkspaceandLakehousecreation.md)
+## Contents
+
+  -  [Task 1: Fabric Workspace and Lakehouse creation](Task1-Fabric-Workspace-and-Lakehouse-creation.md)
