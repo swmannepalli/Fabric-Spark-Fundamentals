@@ -16,11 +16,11 @@ In this task we upload a file to LakehouseSpark. We will use this data to run so
 
 3. In 'FabricSparkWS' workspace, **click** on 'LakehouseSpark' lakehouse.
 
-4. to upload a file,  **Click** on the three dots in front of Files --> Upload --> Upload files. Click on browse button and select the Orders.csv file that's been download in previous step.
+4. to upload a file,  **Click** on the three dots in front of Files --> Upload --> Upload files. Click on browse button and select the Orders.csv file that's been download in previous step. Click on Upload and once it is successfully uploaded, close the box.
    
-6. **Click** on 'New shortcut'.
+6. **Click** on Files and you should now see Orders.csv file.
 
-	![Lakehouse.](media/lakehouse-2.png)
+	<img width="1192" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/bfb011f8-d145-4c9d-82a8-baa115e8c18c">
 
 7. In the pop-up window, under External sources **select** 'Azure Data Lake Storage Gen2'
 
