@@ -20,7 +20,8 @@
 
 4. **Click** '+ New workspace' button.
 
-	![Create Power BI Workspace.](media/power-bi-2.png)
+	![image](https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/20420270-ccbb-486c-8cf3-b4d032eca176)
+
 
 5. **Enter** the name as 'FabricSparkWS', expand Advanced and select Trial under License mode  and **click** 'Apply'.
 
@@ -34,13 +35,13 @@
 
 7. In the new window **click** 'Lakehouse(Preview)'.
 
-    ![Close the browser.](media/demo-6.png)
+   ![image](https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/6cc8a8a8-2f27-4c4e-b327-5f0368aec940)
+
 
 8. **Enter** the name as 'LakehouseSpark'.
 
 11. **Click** 'Create' button.
 
-    ![Close the browser.](media/demo-7.png)
 
 [Continue >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
 
