@@ -1,4 +1,4 @@
- [Home](Readme-shell.md) -  [Next Task (Demo Resources Provision) >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
+ [Home](README.md) -  [Next Task (Demo Resources Provision) >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
 
 ### Task 1: Fabric Workspace and Lakehouse creation
 
