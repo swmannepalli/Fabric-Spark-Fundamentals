@@ -1,6 +1,6 @@
  [Home](Readme-shell.md) -  [Next Task (Demo Resources Provision) >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
 
-### Task 1: Power BI Workspace and Lakehouse creation
+### Task 1: Fabric Workspace and Lakehouse creation
 
  In this task we create a workspace - FabricSparkWS and a lakehouse - LakehouseSpark
 
