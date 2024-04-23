@@ -13,9 +13,7 @@
 
 2. **Sign in** to Power BI.
 
-	![Sign in to Power BI.](<img width="526" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/596f23b3-4f3c-4e53-aa25-2f28f65f0f52">
-)
-
+	<img width="526" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/596f23b3-4f3c-4e53-aa25-2f28f65f0f52">
 	> **Note:** Use your Azure Active Directory credentials to login to Power BI.
 
 3. In Power BI service **click** 'Workspaces'.
