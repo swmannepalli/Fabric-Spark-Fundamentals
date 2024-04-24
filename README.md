@@ -10,5 +10,5 @@ This lab helps with basic understanding of Spark concepts including loading data
   -  [Task 2: Upload File To Lakehouse](Task2-Upload-DataSet-To-Lakehouse.md)
   -  [Task 3: Create Spark Pool](Task3-Create-Spark-Pool.md)
   -  [Task 4: Create Notebook And Run Code](Task4-Create-Notebook-And-Run-Code.md)
-  -  [Task 5: Work With Tables And SQL](Work-With-Tables-And-SQL.md)
+  -  [Task 5: Work With Tables And SQL](Task5-Work-With-Tables-And-SQL.md)
   -  [Task 6: Visualize Data In A Spark Notebook](Task6-Visualize-Data-In-A-Spark-Notebook.md)
