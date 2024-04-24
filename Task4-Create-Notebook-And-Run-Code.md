@@ -26,7 +26,6 @@ Magic commands are easy to spot within the code as they have the prefix % or %% 
 In a Spark notebook, you could use the following PySpark code to load the file data into a dataframe and display the first 10 rows:
 
 ```
-%%pyspark
 df = spark.read.load('Files/products.csv',
     format='csv',
     header=True
