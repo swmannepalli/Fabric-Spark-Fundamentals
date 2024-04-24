@@ -20,6 +20,6 @@ In this task we use Spark SQL library to save the dataframe of products data as 
    df = spark.read.format("csv").option("header", "true").load("Files/products.csv")
    df.write.format("delta").saveAsTable("products")
    ~~~
-6. Run the cell and go to the Lakehouse, expand Tables section and you should now see Products table.
+6. Run the cell and go to the Lakehouse, expand Tables section and you should now see products table.
 
  [Continue >](Task6-Visualize-Data-In-A-Spark-Notebook.md)
