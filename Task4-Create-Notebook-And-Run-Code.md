@@ -1,4 +1,4 @@
-[Home](README.md) -  [Next Task (Warehouse Setup) >](Task4-Setting-up-the-Warehouse.md)
+[Home](README.md) -  [Next Task (Work With Tables And SQL) >](Task5-Work-With-Tables-And-SQL.md)
 
 ### Task 4:  Create Notebook and Run Code
 
@@ -86,4 +86,4 @@ You'll often want to use Spark to transform raw data and save the results for fu
 bikes_df.write.mode("overwrite").parquet('Files/product_data/bikes.parquet')
 
 ```
- [Continue >](Task4-Setting-up-the-Warehouse.md)
+ [Continue >](Task5-Work-With-Tables-And-SQL.md)
