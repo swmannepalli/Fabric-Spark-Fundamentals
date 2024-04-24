@@ -16,7 +16,7 @@ In this task we upload a file to LakehouseSpark. We will use this data to run so
 
 3. In 'FabricSparkWS' workspace, **click** on 'LakehouseSpark' lakehouse.
 
-4. to upload a file,  **Click** on the three dots in front of Files --> Upload --> Upload files. Click on browse button and select the products.csv file that's been download in previous step. Click on Upload and once it is successfully uploaded, close the box.
+4. To upload a file,  **Click** on the three dots next to Files --> Upload --> Upload files. Click on browse button and select the products.csv file that's been download in previous step. Click on Upload and once it is successfully uploaded, close the box.
    
 6. **Click** on Files and you should now see products.csv file.
 
