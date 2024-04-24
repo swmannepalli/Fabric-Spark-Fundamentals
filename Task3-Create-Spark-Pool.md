@@ -16,8 +16,6 @@
 
 5. Provide Spark pool name as 'FirstSparkPool', Node family is 'Memory optimized' and select size as Small. Leave everything else as default and click on Create. Save Spark settings if prompted and close the box.
 
-6. 
-
 
 
 
