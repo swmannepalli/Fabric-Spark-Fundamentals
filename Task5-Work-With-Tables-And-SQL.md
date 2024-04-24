@@ -1,4 +1,4 @@
-[Home](README.md) -  [Next Task (Warehouse Setup) >](Task4-Setting-up-the-Warehouse.md)
+[Home](README.md) -  [Next Task (Visualize Data In A Spark Notebook) >](Task6-Visualize-Data-In-A-Spark-Notebook.md)
 
 ### Task 5: Work With Tables And SQL
 
@@ -22,4 +22,4 @@ In this task we use Spark SQL library to save the dataframe of products data as 
    ~~~
 6. Run the cell and go to the Lakehouse, expand Tables section and you should now see Products table.
 
- [Continue >](Task4-Setting-up-the-Warehouse.md)
+ [Continue >](Task6-Visualize-Data-In-A-Spark-Notebook.md)
