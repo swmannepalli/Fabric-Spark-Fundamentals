@@ -14,10 +14,12 @@ In this task we use Spark SQL library to save the dataframe of products data as 
 
 4. **Click** on Open notebook --> Existing notebook and open the notebook that is created in Task 4. Make sure LakehouseSpark is attached to the Notebook by checking the Lakehouses option under Explorer.
 
-5. On the existing code cell, select Chart option next to Table to view the results of the code cell in the form of chart. You can click on Customize chart to change Chart Type and other options as needed.
-   
+5. Add new code cell and paste below code to save the products.csv file as Table.
 
-<img width="839" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/a3e0d05b-9f3f-41e9-b821-4454706150e0">
-
+   ~~~
+   df = spark.read.format("csv").option("header", "true").load("Files/products.csv")
+   df.write.format("delta").saveAsTable("products")
+   ~~~
+6. Run the cell and go to the Lakehouse, expand Tables section and you should now see Products table.
 
  [Continue >](Task4-Setting-up-the-Warehouse.md)
