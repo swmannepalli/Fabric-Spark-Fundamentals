@@ -56,6 +56,7 @@ You can use the methods of the Dataframe class to filter, sort, group, and other
 
 ```
 pricelist_df = df.select("ProductID", "ListPrice")
+display(pricelist_df)
 
 ```
 Click on Run Cell.
