@@ -2,7 +2,7 @@
 
 ### Task 2: Upload File To Lakehouse
 
-In this task we upload a file to LakehouseSpark. We will use this data to run some spark commands to get a basic understanding on spark functions.
+In this task we upload a file to LakehouseSpark. We will use this data to run some spark commands to get basic understanding on spark functions.
 
 -----------------------------------------------------------------------------------------
 
