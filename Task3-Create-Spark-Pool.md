@@ -1,4 +1,4 @@
-[Home](README.md) -  [Next Task (Warehouse Setup) >](Task4-Setting-up-the-Warehouse.md)
+[Home](README.md) -  [Next Task (Create Notebook And Run Code) >](Task4-Create-Notebook-And-Run-Code.md)
 
 ### Task 3: Create Spark Pool
 
@@ -21,6 +21,6 @@
 
 
 
- [Continue >](Task4-Setting-up-the-Warehouse.md)
+ [Continue >](Task4-Create-Notebook-And-Run-Code.md)
 
 
