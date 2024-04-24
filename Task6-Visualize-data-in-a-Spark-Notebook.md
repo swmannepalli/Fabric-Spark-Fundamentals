@@ -1,6 +1,6 @@
 [Home](README.md) -  [Next Task (Warehouse Setup) >](Task4-Setting-up-the-Warehouse.md)
 
-### Task 5:  Visualize data in a Spark notebook
+### Task 6:  Visualize data in a Spark notebook
 
 In this task we use built-in notebook charts to visualize code execution results.
 
