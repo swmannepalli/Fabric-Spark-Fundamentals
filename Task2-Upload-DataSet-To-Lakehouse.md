@@ -1,4 +1,4 @@
-[Home](README.md) -  [Next Task (Warehouse Setup) >](Task4-Setting-up-the-Warehouse.md)
+[Home](README.md) -  [Next Task (Create Spark Pool) >](Task3-Create-Spark-Pool.md)
 
 ### Task 2: Upload File To Lakehouse
 
@@ -24,6 +24,6 @@ In this task we upload a file to LakehouseSpark. We will use this data to run so
 
 
 
- [Continue >](Task4-Setting-up-the-Warehouse.md)
+ [Continue >](Task3-Create-Spark-Pool.md)
 
 
