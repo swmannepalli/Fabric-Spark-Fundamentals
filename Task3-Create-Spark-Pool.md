@@ -14,8 +14,7 @@
 
    <img width="861" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/ef4c2d72-1677-4bb0-9d22-da43198c4b55">
 
-5. Provide Spark pool name as 'FirstSparkPool', Node family is 'Memory optimized' and select size as Small. Leave everything else as default and click on Create. Save Spark settings if prompted and close the box.
-
+5. Provide Spark pool name as 'FirstSparkPool', Node family is 'Memory optimized' and select size as Small. Uncheck Autoscale and Dynamic allocation and click on Create. Save Spark settings if prompted and close the box.
 
 
 
