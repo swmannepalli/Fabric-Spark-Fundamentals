@@ -7,7 +7,7 @@ In this task we upload a file to LakehouseSpark. We will use this data to run so
 -----------------------------------------------------------------------------------------
 
 
-**Download** products.CSV file from [Here](Dataset)
+**Download** products.csv file from [Here](Dataset)
 
 
 1. **Open** [Power BI](https://app.powerbi.com/)
