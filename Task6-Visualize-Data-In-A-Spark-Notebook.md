@@ -1,4 +1,4 @@
-[Home](README.md) -  [Next Task (Warehouse Setup) >](Task4-Setting-up-the-Warehouse.md)
+[Home](README.md) 
 
 ### Task 6:  Visualize data in a Spark notebook
 
@@ -20,5 +20,6 @@ In this task we use built-in notebook charts to visualize code execution results
 <img width="839" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/a3e0d05b-9f3f-41e9-b821-4454706150e0">
 
 
- [Continue >](Task4-Setting-up-the-Warehouse.md)
+[Home](README.md) 
+
 
