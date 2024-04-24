@@ -1,4 +1,4 @@
- [Home](README.md) -  [Next Task (Demo Resources Provision) >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
+ [Home](README.md) -  [Next Task (Upload File To Lakehouse) >](Task2-Upload-DataSet-To-Lakehouse.md)
 
 ### Task 1: Fabric Workspace and Lakehouse creation
 
@@ -34,15 +34,14 @@
 
    <img width="343" alt="image" src="https://github.com/swmannepalli/MicrosoftFabric_HOL/assets/84516667/6b6af585-e359-4fca-bafa-bc37bcda342e">
 
-7. In the new window **click** 'Lakehouse(Preview)'.
+7. In the new window **click** 'Lakehouse'under Data Engineering.
 
-   ![image](https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/6cc8a8a8-2f27-4c4e-b327-5f0368aec940)
-
+ <img width="395" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/7ce5a685-ea4e-4f1d-8f64-dcdf58ad2da1">
 
 8. **Enter** the name as 'LakehouseSpark'.
 
 11. **Click** 'Create' button.
 
 
-[Continue >](Task2-Run-the-Cloud-Shell-to-provision-the-demo-resources.md)
+[Continue >](Task2-Upload-DataSet-To-Lakehouse.md)
 
