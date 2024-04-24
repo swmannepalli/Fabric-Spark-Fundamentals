@@ -27,7 +27,7 @@ In a Spark notebook, you could use the following PySpark code to load the file d
 
 ```
 %%pyspark
-df = spark.read.load('Files/Orders.csv',
+df = spark.read.load('Files/products.csv',
     format='csv',
     header=True
 )
@@ -39,13 +39,13 @@ Click on Run Cell.
 >**Note:** It is going to take time to run the first cell as it is taking time to start the cluster.
 
 
-**Equivalent Scala code for the Orders data example:**
+**Equivalent Scala code for the products data example:**
    
 >**Note:** Hover over the bottom of the output and click on +Code to add new cell
 
 ```
 %%spark
-val df = spark.read.format("csv").option("header", "true").load("Files/Orders.csv")
+val df = spark.read.format("csv").option("header", "true").load("Files/products.csv")
 display(df.limit(10))
 
 ```
@@ -56,18 +56,34 @@ Click on Run Cell.
 You can use the methods of the Dataframe class to filter, sort, group, and otherwise manipulate the data it contains. For example, the following code example uses the select method to retrieve the Order ID and Sales columns from the df dataframe containing Order data in the previous example:
 
 ```
-ordersales_df = df.select("Order ID", "Sales")
-display(ordersales_df.limit(10))
+pricelist_df = df.select("ProductID", "ListPrice")
 
 ```
 Click on Run Cell.
 
-You can "chain" methods together to perform a series of manipulations that results in a transformed dataframe. For example, this example code chains the select and where methods to create a new dataframe containing the Product Name and Sales columns for orders from California State:
+You can "chain" methods together to perform a series of manipulations that results in a transformed dataframe. For example, this example code chains the select and where methods to create a new dataframe containing the ProductName and ListPrice columns for products with a category of Mountain Bikes or Road Bikes:
 
 ```
-CaliforniaSales_df = df.select("Product Name", "State Or Province", "Sales").where((df["State Or Province"]=="California"))
-display(CaliforniaSales_df)
+bikes_df = df.select("ProductName", "Category", "ListPrice").where((df["Category"]=="Mountain Bikes") | (df["Category"]=="Road Bikes"))
+display(bikes_df)
+
+```
+Click on Run Cell.
+
+To group and aggregate data, you can use the groupBy method and aggregate functions. For example, the following PySpark code counts the number of products for each category:
+
+```
+counts_df = df.select("ProductID", "Category").groupBy("Category").count()
+display(counts_df)
 
 ```
 
+## 3. Saving a dataframe
+
+You'll often want to use Spark to transform raw data and save the results for further analysis or downstream processing. The following code example saves the dataFrame into a parquet file in the data lake, replacing any existing file of the same name.
+
+```
+bikes_df.write.mode("overwrite").parquet('Files/product_data/bikes.parquet')
+
+```
  [Continue >](Task4-Setting-up-the-Warehouse.md)
