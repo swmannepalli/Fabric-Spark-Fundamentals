@@ -20,7 +20,7 @@ In this task we upload a file to LakehouseSpark. We will use this data to run so
    
 6. **Click** on Files and you should now see products.csv file.
 
-	<img width="1192" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/bfb011f8-d145-4c9d-82a8-baa115e8c18c">
+	<img width="1108" alt="image" src="https://github.com/swmannepalli/Fabric-Spark-Fundamentals/assets/84516667/f169e140-7a38-4633-b6d1-68e2f919d6b8">
 
 
 
