@@ -51,5 +51,23 @@ display(df.limit(10))
 ```
 Click on Run Cell.   
 
+## 2. Filtering and grouping Dataframe
+
+You can use the methods of the Dataframe class to filter, sort, group, and otherwise manipulate the data it contains. For example, the following code example uses the select method to retrieve the Order ID and Sales columns from the df dataframe containing Order data in the previous example:
+
+```
+ordersales_df = df.select("Order ID", "Sales")
+display(ordersales_df.limit(10))
+
+```
+Click on Run Cell.
+
+You can "chain" methods together to perform a series of manipulations that results in a transformed dataframe. For example, this example code chains the select and where methods to create a new dataframe containing the Product Name and Sales columns for orders from California State:
+
+```
+CaliforniaSales_df = df.select("Product Name", "State Or Province", "Sales").where((df["State Or Province"]=="California"))
+display(CaliforniaSales_df)
+
+```
 
  [Continue >](Task4-Setting-up-the-Warehouse.md)
