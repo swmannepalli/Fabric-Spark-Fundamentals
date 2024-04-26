@@ -83,7 +83,7 @@ display(counts_df)
 You'll often want to use Spark to transform raw data and save the results for further analysis or downstream processing. The following code example saves the dataFrame into a parquet file in the data lake, replacing any existing file of the same name.
 
 ```
-bikes_df.write.mode("overwrite").parquet('Files/product_data/bikes.parquet')
+df.write.mode("overwrite").parquet('Files/product_data/bikes.parquet')
 
 ```
  [Continue >](Task5-Work-With-Tables-And-SQL.md)
